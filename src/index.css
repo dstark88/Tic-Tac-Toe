@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Slab:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC');
 
 * {
   box-sizing: border-box;
@@ -30,9 +30,53 @@ body {
   min-height: 110rem;
 }
 
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  overflow: auto;
+  color: #0ba818;  
+  top: 0;
+  background: linear-gradient(#383624, #282617);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  margin: 0 0 0 16%;
+  width: 250px;
+  height: 90px;
+  font-family: 'IM Fell Great Primer SC';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #0ba818;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar {
+  margin-right: 15%;
+}
+
+nav {
+  float: right;
+  margin-top: 40px;
+  color: #0ba818;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'IM Fell Great Primer SC';
+  line-height: 20px;
+  color: #0ba818;
+  text-decoration: none;
+}
+
 header {
   text-align: center;
-  font-family: 'Great Vibes';
+  font-family: 'IM Fell Great Primer SC';
   font-size: 8rem;
   color: #0ba818;
   padding-top: 100px;

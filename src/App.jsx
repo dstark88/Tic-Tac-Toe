@@ -46,6 +46,22 @@ function App() {
 
   return (
     <main>
+      <div id="masthead">
+        <a
+          className="navbar-brand"
+          href="https://dstark88.github.io/portfolio/"
+        >
+          Denise Stark
+        </a>
+        <nav className="navbar">
+          <a
+            href="https://dstark88.github.io/portfolio/"
+            target="blank"
+          >
+            Portfolio
+          </a>
+        </nav>
+      </div>
       <header id="header">Tic Tac Toe</header>
       <div id="game-container">
         <ol id="players" className="highlight-player">
