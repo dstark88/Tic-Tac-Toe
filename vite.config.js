@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Tic-Tack-Toe/'
+  base: process.env.NODE_ENV === 'production' ? '/Tic-Tac-Toe/' : './',
 })
